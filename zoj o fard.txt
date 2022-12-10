@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	int a;
+	cout<<"enter your number";
+	cin>>a;
+	if(a%2==0)
+	cout<<"zoj ast"<<endl;
+	else
+	cout<<"fard ast"<<endl;
+	return 0 ;
+}

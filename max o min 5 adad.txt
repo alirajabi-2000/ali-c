@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	int a,b,c,d,e,max,min;
+	cout<<"5 adad sahih vared konid:\n";
+	cin>>a>>b>>c>>d>>e;
+	if(a>=b){
+		max=a;
+		min=b;
+	}
+	else if(b>=a){
+		max=b;
+		min=a;
+	}
+	if(c>max){
+		max=c;
+	}
+	if(c<min){
+		min=c;
+	}
+	if(d>max){
+		max=d;
+	}
+	if(d<min){
+		min=c;
+	}
+	if(e>max){
+		max=e;
+	}
+	if(e<min){
+		min=e;
+	}
+	cout<<" max ="<<max<<"min ="<<min<<endl;
+	return 0 ; 
+}
